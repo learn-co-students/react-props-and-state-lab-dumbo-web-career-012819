@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
-import './fetch-setup';
+import fetchMock from './fetch-setup'
 
 ReactDOM.render(<App />, document.getElementById('root'));
